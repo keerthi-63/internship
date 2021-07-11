@@ -1,0 +1,44 @@
+
+	*{
+        padding:0px;
+        margin:0px;
+    }
+    h3.normal{
+	font-size:3em;
+	font-family:Times new roman;
+	font-weight:bold;
+	text-align:center;
+	}
+	p.size{
+	font-size:2em;
+	text-align:center;
+	font-family:Times new roman;
+	}
+	/* .container {
+  position: relative;
+  /* viewport-fit:1%; ? */
+  /* margin: 0px; 
+} */
+
+.container { 
+  top: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%; 
+  margin:0px; 
+  }
+.content {
+  position: absolute; 
+  top: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 150%; 
+  padding: 20px; 
+}  
+.pic{
+    width:100vw;
+    height:100vh;
+}
+	
